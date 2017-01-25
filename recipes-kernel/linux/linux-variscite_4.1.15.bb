@@ -8,7 +8,7 @@ require recipes-kernel/linux/linux-dtb.inc
 
 DEPENDS += "lzop-native bc-native"
 
-SRCBRANCH = "imx-rel_imx_4.1.15_1.2.0_ga-var01"
+SRCBRANCH = "george"
 LOCALVERSION = "-6QP"
 SRCREV = "${AUTOREV}"
 KERNEL_SRC ?= "git://github.com/gbrouse/linux-2.6-imx.git;protocol=git"
