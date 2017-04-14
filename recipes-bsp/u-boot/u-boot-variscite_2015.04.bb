@@ -9,7 +9,7 @@ PROVIDES = "u-boot"
 
 SRCREV = "${AUTOREV}"
 SRCBRANCH = "george"
-SRC_URI = "git://github.com/gbrouse/variscite-uboot-imx.git;protocol=git;branch=${SRCBRANCH}"
+SRC_URI = "https://github.com/gbrouse/variscite-uboot-imx.git;protocol=git;branch=${SRCBRANCH}"
 LIC_FILES_CHKSUM = "file://README;md5=d3893ecbe5dadb7446983acba5cd607d"
 
 S = "${WORKDIR}/git"
